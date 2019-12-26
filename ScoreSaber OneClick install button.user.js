@@ -133,7 +133,7 @@ function GetOneClickLink(songID, modifyElement, onLoadResponse, onStartFunction,
             {
                 var key = results.docs[0].key;
                 onLoadResponse("beatsaver://" + key, modifyElement, key);
-                onFinishFunction();
+                if(onFinishFunction != null) { onFinishFunction() };
             }
         },
         onerror:  function(e) { if(onFinishFunction) { onFinishFunction();} },
