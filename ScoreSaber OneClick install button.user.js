@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ScoreSaber OneClick install button
 // @namespace    https://github.com/Invertex/
-// @version      1.0
+// @version      1.1
 // @description  Add OneClick Install for BeatSaber songs on ScoreSaber
 // @author       Invertex
 // @license      GPL-3.0-or-later; http://www.gnu.org/licenses/gpl-3.0.txt
