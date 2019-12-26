@@ -8,7 +8,6 @@
 // @match        https://scoresaber.com/leaderboard/*
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
 // @grant        GM.xmlHttpRequest
-// @run-at       document-start
 // @connect      beatsaver.com
 // ==/UserScript==
 
