@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         ScoreSaber OneClick install button
 // @namespace    https://github.com/Invertex/
-// @version      1.3
+// @version      1.4
 // @description  Add OneClick Install for BeatSaber songs on ScoreSaber
 // @author       Invertex
 // @license      GPL-3.0-or-later; http://www.gnu.org/licenses/gpl-3.0.txt
-// @match        https://scoresaber.com/*
+// @match        *://scoresaber.com/*
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
 // @grant        GM.xmlHttpRequest
 // @connect      beatsaver.com
@@ -31,7 +31,6 @@ let styles = `
   height: 1.6em;
   animation: ocLoaderSpin 1s linear infinite;
   margin: auto;
-
 }
 
 @keyframes ocLoaderSpin {
